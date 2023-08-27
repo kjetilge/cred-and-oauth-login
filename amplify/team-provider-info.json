@@ -1,0 +1,15 @@
+{
+  "production": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-fagfilmb-production-212429-authRole",
+      "UnauthRoleArn": "arn:aws:iam::697928733912:role/amplify-fagfilmb-production-212429-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::697928733912:role/amplify-fagfilmb-production-212429-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-fagfilmb-production-212429-deployment",
+      "UnauthRoleName": "amplify-fagfilmb-production-212429-unauthRole",
+      "StackName": "amplify-fagfilmb-production-212429",
+      "StackId": "arn:aws:cloudformation:eu-west-1:697928733912:stack/amplify-fagfilmb-production-212429/f6159870-839c-11ec-ac91-0671c71895a5",
+      "AmplifyAppId": "d31p1yaj94lbki"
+    }
+  }
+}

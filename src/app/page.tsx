@@ -4,7 +4,7 @@ import UserCard from "./components/UserCard"
 import User from './user'
 // https://www.youtube.com/watch?v=2kgqPvs0j_I
 
-
+import { useSession }  from 'next-auth/react'
 export default async function Home() {
   const session = await getServerSession(options)
 
@@ -25,12 +25,7 @@ export default async function Home() {
       <h1>Client Session</h1>
       <User />
       </section>
-
     </main>
-
-
-
-
     </>
   )
 }
